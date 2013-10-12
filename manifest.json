@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name": "REXify",
+    "version": "0.1",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "REXify"
+        
+    },
+    "background": {
+        "scripts": ["rexify.js"]
+    }
+}
