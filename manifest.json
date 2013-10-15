@@ -1,15 +1,19 @@
 {
     "manifest_version" : 2,
-    "name": "REXify",
-    "version": "0.1",
-    "permissions": [
+    "name"             : "REXify",
+    "version"          : "0.1",
+    "icons"            : {
+        "128" : "images/icon-128.png",
+        "38"  : "images/icon-38.png"
+    },
+    "permissions"    : [
         "activeTab"
     ],
-    "browser_action": {
-        "default_title": "REXify"
-        
+    "browser_action" : {
+        "default_title" : "REXify",
+        "default_icon"  : "images/icon-38.png"
     },
-    "background": {
-        "scripts": ["rexify.js"]
+    "background"     : {
+        "scripts" : ["rexify.js"]
     }
 }
